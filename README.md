@@ -78,13 +78,13 @@ _ = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(upda
 ```
 
 
-##Pros and Cons
+## Pros and Cons
 
 
 - For the running up and down motion detection, I coupling the accelerometer data with the altimeter data.
 Altimeter is used for detect going up and down and the altimeter for detect running. The problem is that the altimeter has a low frequency update. So when you going up and begin to going down, the altimeter hasn't yet get the altitude reached. So with my solution, you have to wait the altimeter update to the right altitude and after move the phone to enable accelerometer and detect this motion.
 
-##TODO
+## TODO
 
 - Protect sdk code from viewing.
 
