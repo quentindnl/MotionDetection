@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8407D0B5208B78DC00D6688E /* MotionDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407D0AB208B78DC00D6688E /* MotionDetection.framework */; };
+		8407D0BA208B78DC00D6688E /* MotionDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407D0B9208B78DC00D6688E /* MotionDetectionTests.swift */; };
+		8407D0BC208B78DC00D6688E /* MotionDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8407D0AE208B78DC00D6688E /* MotionDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8407D0C6208B790B00D6688E /* Detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407D0C5208B790B00D6688E /* Detection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8407D0B6208B78DC00D6688E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8407D0A2208B78DC00D6688E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8407D0AA208B78DC00D6688E;
+			remoteInfo = MotionDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8407D0AB208B78DC00D6688E /* MotionDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407D0AE208B78DC00D6688E /* MotionDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionDetection.h; sourceTree = "<group>"; };
+		8407D0AF208B78DC00D6688E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407D0B4208B78DC00D6688E /* MotionDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407D0B9208B78DC00D6688E /* MotionDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetectionTests.swift; sourceTree = "<group>"; };
+		8407D0BB208B78DC00D6688E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8407D0C5208B790B00D6688E /* Detection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8407D0A7208B78DC00D6688E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8407D0B1208B78DC00D6688E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407D0B5208B78DC00D6688E /* MotionDetection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8407D0A1208B78DC00D6688E = {
+			isa = PBXGroup;
+			children = (
+				8407D0AD208B78DC00D6688E /* MotionDetection */,
+				8407D0B8208B78DC00D6688E /* MotionDetectionTests */,
+				8407D0AC208B78DC00D6688E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8407D0AC208B78DC00D6688E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8407D0AB208B78DC00D6688E /* MotionDetection.framework */,
+				8407D0B4208B78DC00D6688E /* MotionDetectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8407D0AD208B78DC00D6688E /* MotionDetection */ = {
+			isa = PBXGroup;
+			children = (
+				8407D0C5208B790B00D6688E /* Detection.swift */,
+				8407D0AE208B78DC00D6688E /* MotionDetection.h */,
+				8407D0AF208B78DC00D6688E /* Info.plist */,
+			);
+			path = MotionDetection;
+			sourceTree = "<group>";
+		};
+		8407D0B8208B78DC00D6688E /* MotionDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				8407D0B9208B78DC00D6688E /* MotionDetectionTests.swift */,
+				8407D0BB208B78DC00D6688E /* Info.plist */,
+			);
+			path = MotionDetectionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8407D0A8208B78DC00D6688E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407D0BC208B78DC00D6688E /* MotionDetection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8407D0AA208B78DC00D6688E /* MotionDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8407D0BF208B78DC00D6688E /* Build configuration list for PBXNativeTarget "MotionDetection" */;
+			buildPhases = (
+				8407D0A6208B78DC00D6688E /* Sources */,
+				8407D0A7208B78DC00D6688E /* Frameworks */,
+				8407D0A8208B78DC00D6688E /* Headers */,
+				8407D0A9208B78DC00D6688E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionDetection;
+			productName = MotionDetection;
+			productReference = 8407D0AB208B78DC00D6688E /* MotionDetection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8407D0B3208B78DC00D6688E /* MotionDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8407D0C2208B78DC00D6688E /* Build configuration list for PBXNativeTarget "MotionDetectionTests" */;
+			buildPhases = (
+				8407D0B0208B78DC00D6688E /* Sources */,
+				8407D0B1208B78DC00D6688E /* Frameworks */,
+				8407D0B2208B78DC00D6688E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8407D0B7208B78DC00D6688E /* PBXTargetDependency */,
+			);
+			name = MotionDetectionTests;
+			productName = MotionDetectionTests;
+			productReference = 8407D0B4208B78DC00D6688E /* MotionDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8407D0A2208B78DC00D6688E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					8407D0AA208B78DC00D6688E = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					8407D0B3208B78DC00D6688E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 8407D0A5208B78DC00D6688E /* Build configuration list for PBXProject "MotionDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8407D0A1208B78DC00D6688E;
+			productRefGroup = 8407D0AC208B78DC00D6688E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8407D0AA208B78DC00D6688E /* MotionDetection */,
+				8407D0B3208B78DC00D6688E /* MotionDetectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8407D0A9208B78DC00D6688E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8407D0B2208B78DC00D6688E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8407D0A6208B78DC00D6688E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407D0C6208B790B00D6688E /* Detection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8407D0B0208B78DC00D6688E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8407D0BA208B78DC00D6688E /* MotionDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8407D0B7208B78DC00D6688E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8407D0AA208B78DC00D6688E /* MotionDetection */;
+			targetProxy = 8407D0B6208B78DC00D6688E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8407D0BD208B78DC00D6688E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8407D0BE208B78DC00D6688E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8407D0C0208B78DC00D6688E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3Z6LRSD42F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MotionDetection/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.MotionDetection;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8407D0C1208B78DC00D6688E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3Z6LRSD42F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MotionDetection/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.MotionDetection;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8407D0C3208B78DC00D6688E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z6LRSD42F;
+				INFOPLIST_FILE = MotionDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.MotionDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8407D0C4208B78DC00D6688E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Z6LRSD42F;
+				INFOPLIST_FILE = MotionDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.MotionDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8407D0A5208B78DC00D6688E /* Build configuration list for PBXProject "MotionDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8407D0BD208B78DC00D6688E /* Debug */,
+				8407D0BE208B78DC00D6688E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8407D0BF208B78DC00D6688E /* Build configuration list for PBXNativeTarget "MotionDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8407D0C0208B78DC00D6688E /* Debug */,
+				8407D0C1208B78DC00D6688E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8407D0C2208B78DC00D6688E /* Build configuration list for PBXNativeTarget "MotionDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8407D0C3208B78DC00D6688E /* Debug */,
+				8407D0C4208B78DC00D6688E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8407D0A2208B78DC00D6688E /* Project object */;
+}
